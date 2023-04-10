@@ -93,6 +93,12 @@ const App = ({ signOut }) => {
             Create Note
           </Button>
         </Flex>
+        <View
+            name="image"
+            as="input"
+            type="file"
+            style={{ alignSelf: "end" }}
+          />
       </View>
       <Heading level={2}>Current Notes</Heading>
       <View margin="3rem 0">
@@ -119,12 +125,6 @@ const App = ({ signOut }) => {
             </Button>
           </Flex>
         ))}
-      <View
-        name="image"
-        as="input"
-        type="file"
-        style={{ alignSelf: "end" }}
-      />
       </View>
       <Button onClick={signOut}>Sign Out</Button>
     </View>
