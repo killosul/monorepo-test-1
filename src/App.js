@@ -74,7 +74,7 @@ const App = ({ signOut }) => {
       <View as="form" margin="3rem 0" onSubmit={createNote}>
         <Flex direction="row" justifyContent="center">
           <TextField
-            name="name"
+            name="name-v2"
             placeholder="Note Name"
             label="Note Name"
             labelHidden
